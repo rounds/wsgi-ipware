@@ -4,14 +4,23 @@ import socket
 # Search for the real IP address in the following order
 HEADER_PRECEDENCE_ORDER = (
     'HTTP_X_FORWARDED_FOR',  # client, proxy1, proxy2
+    'http-x-forwarded-for',
     'HTTP_CLIENT_IP',
+    'http-client-ip',
     'HTTP_X_REAL_IP',
+    'http-x-real-ip',
     'HTTP_X_FORWARDED',
+    'http-x-forwarded',
     'HTTP_X_CLUSTER_CLIENT_IP',
+    'http-x-cluster-client-ip',
     'HTTP_FORWARDED_FOR',
+    'http-forwarded-for',
     'HTTP_FORWARDED',
+    'http-forwarded',
     'HTTP_VIA',
+    'http-via',
     'REMOTE_ADDR',
+    'remote-addr'
 )
 
 # Private IP addresses
