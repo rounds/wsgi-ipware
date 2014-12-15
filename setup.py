@@ -14,9 +14,9 @@ settings = {
     'package': 'ipware',
     'description': ("A WSGI utility library that returns a client's real IP "
                     "address"),
-    'url': 'https://github.com/dAnjou/wsgi-ipware',
-    'author': 'Max Ludwig',
-    'author_email': 'wsgi-ipware@maxludwig.de',
+    'url': 'https://github.com/rounds/wsgi-ipware',
+    'author': 'Ami B',
+    'author_email': 'ami@rounds.com',
     'license': 'BSD',
     'classifiers': (
         'Development Status :: 3 - Alpha',
