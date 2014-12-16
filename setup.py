@@ -10,7 +10,7 @@ import sys
 
 settings = {
     'name': 'wsgi-ipware',
-    'version': '0.0.1',
+    'version': '0.0.2',
     'package': 'ipware',
     'description': ("A WSGI utility library that returns a client's real IP "
                     "address"),
