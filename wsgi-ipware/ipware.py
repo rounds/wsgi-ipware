@@ -5,22 +5,30 @@ import socket
 HEADER_PRECEDENCE_ORDER = (
     'HTTP_X_FORWARDED_FOR',  # client, proxy1, proxy2
     'http-x-forwarded-for',
+    'x-forwarded-for'
     'HTTP_CLIENT_IP',
     'http-client-ip',
+    'client-ip',
     'HTTP_X_REAL_IP',
     'http-x-real-ip',
+    'x-real-ip',
     'HTTP_X_FORWARDED',
     'http-x-forwarded',
+    'x-forwarded',
     'HTTP_X_CLUSTER_CLIENT_IP',
     'http-x-cluster-client-ip',
+    'x-cluster-client-ip',
     'HTTP_FORWARDED_FOR',
     'http-forwarded-for',
+    'forwarded-for',
     'HTTP_FORWARDED',
     'http-forwarded',
+    'forwarded',
     'HTTP_VIA',
     'http-via',
+    'via',
     'REMOTE_ADDR',
-    'remote-addr'
+    'remote-addr',
 )
 
 # Private IP addresses
