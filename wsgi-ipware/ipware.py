@@ -5,7 +5,7 @@ import socket
 HEADER_PRECEDENCE_ORDER = (
     'HTTP_X_FORWARDED_FOR',  # client, proxy1, proxy2
     'http-x-forwarded-for',
-    'x-forwarded-for'
+    'x-forwarded-for',
     'HTTP_CLIENT_IP',
     'http-client-ip',
     'client-ip',
